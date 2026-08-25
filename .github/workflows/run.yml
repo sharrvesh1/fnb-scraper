@@ -2,7 +2,6 @@ name: SG F&B Lead Generation
 
 on:
   schedule:
-    # 02:00 SGT = 18:00 UTC the previous day (SGT is UTC+8)
     - cron: "0 18 * * *"
   workflow_dispatch: {}
 
