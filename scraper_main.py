@@ -62,16 +62,27 @@ SHEET_HEADERS = [
 # Discovery queries. Each targets a segment relevant to dedicated dishwasher
 # / kitchen-steward staffing demand. Expand this list over time.
 SEARCH_QUERIES = [
-    ("restaurants in Singapore", "Restaurant"),
-    ("independent cafes in Singapore", "Cafe"),
-    ("catering companies in Singapore", "Catering"),
-    ("institutional caterers in Singapore", "Institutional Catering"),
-    ("central kitchen Singapore", "Central Kitchen"),
-    ("banquet hall catering Singapore", "Catering"),
-    ("halal catering Singapore", "Catering"),
-    ("seafood restaurant Singapore", "Restaurant"),
-    ("hotpot restaurant Singapore", "Restaurant"),
-    ("buffet restaurant Singapore", "Restaurant"),
+    ("restaurants in Bugis Singapore", "Restaurant"),
+    ("cafes in Bugis Singapore", "Cafe"),
+    ("restaurants in Clarke Quay", "Restaurant"),
+    ("restaurants in Tanjong Pagar", "Restaurant"),
+    ("cafes in Tiong Bahru", "Cafe"),
+    ("restaurants in Orchard Road", "Restaurant"),
+    ("restaurants in Dhoby Ghaut", "Restaurant"),
+    ("seafood restaurant in Chinatown Singapore", "Restaurant"),
+    ("central kitchen in Kallang", "Central Kitchen"),
+    ("catering companies in Bendemeer", "Catering"),
+    
+    # New CBD & Surrounding Areas
+    ("restaurants in CBD Singapore", "Restaurant"),
+    ("restaurants in Telok Ayer", "Restaurant"),
+    ("cafes in Telok Ayer", "Cafe"),
+    ("restaurants in Marina Bay", "Restaurant"),
+    ("restaurants in Tanglin", "Restaurant"),
+    ("restaurants in City Hall Singapore", "Restaurant"),
+    ("restaurants in Raffles Place", "Restaurant"),
+    ("cafes in Raffles Place", "Cafe"),
+    ("restaurants in Boat Quay", "Restaurant"),
 ]
 
 # Businesses whose name/type/website text contains these terms are dropped —
